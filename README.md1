@@ -1,0 +1,19 @@
+questline-3/data-explorer/README.md
+# Data Explorer - Students Performance Analysis
+
+## Overview
+This directory contains an exploratory data analysis (EDA) of the Students Performance Dataset to understand its underlying structure, quality, and statistical properties.
+
+---
+
+## Key Observations
+
+- **Dataset Shape:** The dataset consists of **1,000 rows** and **8 columns**.
+- **Data Types:**
+  - Categorical (`object`): `gender`, `race/ethnicity`, `parental level of education`, `lunch`, `test preparation course`.
+  - Numerical (`int64`): `math score`, `reading score`, `writing score`.
+- **Data Quality:** There are **0 missing values** across all features.
+- **Summary Statistics:**
+  - **Math Score:** Mean $\approx 66.09$, Min = 0, Max = 100
+  - **Reading Score:** Mean $\approx 69.17$, Min = 17, Max = 100
+  - **Writing Score:** Mean $\approx 68.05$, Min = 10, Max = 100
