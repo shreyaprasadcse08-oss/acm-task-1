@@ -1,0 +1,23 @@
+# Data Refinery - Data Cleaning Approach
+
+## Overview
+This directory contains the pipeline used to transform the raw Students Performance Dataset into a clean and reliable dataset for analysis.
+
+---
+
+## Data Cleaning Steps Applied
+
+1. **Missing Value Handling:**
+   - Evaluated the dataset using `isnull().sum()`.
+   - Confirmed 0 missing values across all columns; no imputation or row removal was needed.
+
+2. **Duplicate Removal:**
+   - Checked for duplicated records using `duplicated()`.
+   - Removed duplicate rows using `drop_duplicates()`.
+
+3. **Data Quality & Schema Verification:**
+   - Verified that data types for all columns remained accurate and intact.
+   - Checked column names and confirmed data standard integrity.
+
+4. **Export:**
+   - Saved the cleaned dataset locally as `cleaned_students_performance.csv`.
