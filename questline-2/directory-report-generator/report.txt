@@ -1,0 +1,10 @@
+========================================
+       DIRECTORY ANALYSIS REPORT
+========================================
+Target Directory          : /sample_directory
+Total Number of Files     : 12
+Total Executable Files    : 2
+Number of Hidden Files    : 3
+Largest File              : /sample_directory/data_backup.bin (15M)
+Most Recently Modified    : /sample_directory/notes.txt
+========================================
